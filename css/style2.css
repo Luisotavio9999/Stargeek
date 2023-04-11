@@ -1,16 +1,13 @@
-/* Reset CSS para tirar todas as margens dos elemenstos*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
     padding: 50px;
 }
 main{
-    background-image: url(../img/best-anime-like-one-piece.jpg);
+    background-image: url(../img/rage.jpg);
     border: 20px solid black;
     border-radius: 50px;
     background-size: cover;
@@ -74,4 +71,10 @@ a{
     padding-right: 30px;
     font-size: 40px;
     color: grey;
+}
+p{
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
 }

@@ -6,16 +6,16 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
+    background-color: black;
 }
 .cabeçalho{
-    background-image: url(../img/fundo.PNG);
+    background-color: rgb(4, 0, 9);
     display: flex;
     justify-content: space-between;
-    padding-left: 20px;
-    padding-right: 20px;
 }
-.cabeçalho > img{
-    height: 60px;
+.imglogo{
+    height: 80px;
+    padding-left: 30px;
 }
 .menu{
     display: flex;
@@ -30,7 +30,8 @@ body{
     text-decoration: none;
     text-shadow: 2px 2px black;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 50px;
+    padding-top: 20px;
     font-weight: 600;
     border: 7px solid linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(180deg, #000000 0%, rgba(217, 217, 217, 0) 100%);;
     border-radius: 20px;
@@ -43,27 +44,26 @@ body{
     padding-left: 10px;
     padding-right: 10px;
     font-weight: 600;
-    transition: 300ms;
+    transition: 100ms;
 }
 .banner{
-    background-image: url();
+    background-image: url(../img/fundo.PNG);
     background-size: cover;
-    background-position: top center;
     height: 550px;
     align-items: center;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
-    text-shadow: 2px 2px black;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0;
+    padding-top: 169px;
 }
-.banner > h1 {
-    color: white;
-    margin-bottom: 30px;
-    box-shadow: 1px 1px black;
+.img1{
+    width: 320px;
+    height: 390px;
+}
+.img2{
+    height: 40px;
+    width: 1690px;
+    margin:10px
 }
 .botao-vazado{
     color: white;
@@ -81,5 +81,75 @@ body{
     border: 2px solid white;
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.379);
-    transition: 300ms;
+    transition: 100ms;
+}
+.imgs{
+    border-radius: 10%;
+    width: 150px;
+    height: 170px;
+    margin: 10px;
+}
+.a11{
+    color: black;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: rgba(82, 19, 140, 0.838);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main{
+    background-image: url(../img/fundo.PNG);
+    background-size: cover;
+    
+    height: 550px;
+    display: flex;
+    padding: 20px;
+}
+.divmain{
+    display: flex;
+    align-items: center;
+}
+.p1{
+    color: gray;
+    padding-top: 70px;
+    padding-left: 30px;
+    font-size: 70px;
+}
+.div50{
+    background-image: url(../img/fundo.PNG);
+    background-size: cover;
+    height: 950px;
+    display: flex;
+}
+.div50-1{
+    width: 45%;
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.div50-2{
+    width: 700px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.imagtv{
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color: white;
+    padding-left: 10px;
+    padding-top: 40px;
+}
+.final{
+    display: flex;
+}
+.final-2{
+   padding-left: 600px;
+   padding-right: 500px;
 }
