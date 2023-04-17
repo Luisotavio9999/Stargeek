@@ -88,6 +88,18 @@ body{
     width: 150px;
     height: 170px;
     margin: 10px;
+    box-shadow: 2px 4px 15px purple;
+    transition: 300ms;
+}
+.imgs:hover{
+    background-image: url(../img/anime-gif-9.gif);
+    border-radius: 10%;
+    width: 160px;
+    height: 190px;
+    margin: 10px;
+    box-shadow: 2px 4px 15px purple;
+    transition: 300ms;
+    
 }
 .a11{
     color: black;
@@ -109,7 +121,12 @@ main{
 .divmain{
     display: flex;
     align-items: center;
+    overflow: scroll;
 }
+.divmain::-webkit-scrollbar{
+    background-color: transparent;
+}
+
 .p1{
     color: gray;
     padding-top: 70px;
@@ -149,7 +166,60 @@ h1{
 .final{
     display: flex;
 }
-.final-2{
-   padding-left: 600px;
-   padding-right: 500px;
+.divfinal-2{
+    height: 300px;
+    width: 300px;
+    margin-left: 320px;
+}
+h2{
+    color: gray;
+    font-size: larger;
+}
+.div-fundo{
+    background: linear-gradient(0deg, rgb(57, 14, 77), black);
+}
+.p4{
+    color: gray;
+    font-size: 50px;
+}
+.p5{
+    color: gray;
+    font-size: 50px;
+    display: flex;
+}
+.div-fundinho{
+    background-image: url(../img/fundo.PNG);
+    background-size: cover;
+}
+
+
+.loja::-webkit-scrollbar{
+    display: none;
+}
+.loja{
+    height: 230px;
+    background-color: rgba(98, 98, 98, 0.264);
+    
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+main {
+    display: block;
+    width: 1510px;
+    height: 800px;
+}
+
+.roupa{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+.roupa-ajuste{
+    width: 160px;
+    height: 168px;
 }
