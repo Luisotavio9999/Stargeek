@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     padding: 50px;
 }
-main{
+
+main {
     background-image: url(../img/rage.jpg);
     border: 20px solid black;
     border-radius: 50px;
@@ -24,14 +26,16 @@ main{
     margin-left: 200px;
     margin-right: 500px;
 }
-.div1{
+
+.div1 {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
 }
-input{
+
+input {
     background-color: white;
     border-radius: 20px;
     height: 50px;
@@ -42,15 +46,18 @@ input{
     padding-left: 20px;
     color: rgb(87, 87, 87);
 }
-ul{
+
+ul {
     align-items: center;
     justify-content: center;
     list-style-type: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.a1{
+
+.a1 {
     border: 2px solid black;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.242);
@@ -63,7 +70,8 @@ a{
     margin-left: 5px;
     margin-right: 90px;
 }
-.a2{
+
+.a2 {
     border: 2px solid rgb(6, 0, 28);
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.267);
@@ -72,13 +80,15 @@ a{
     font-size: 40px;
     color: grey;
 }
-p{
+
+p {
     padding-top: 10px;
     text-align: center;
     color: rgb(255, 0, 0);
     font-size: 50px;
 }
-.a5{
+
+.a5 {
     background-color: white;
     border-radius: 20px;
     height: 50px;
