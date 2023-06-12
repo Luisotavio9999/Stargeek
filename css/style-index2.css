@@ -109,9 +109,9 @@ body {
 .imgs:hover {
     background-image: url(../img/anime-gif-9.gif);
     border-radius: 10%;
-    width: 160px;
+    width: 180px;
     height: 200px;
-    margin: 10px;
+    margin-bottom: 60px;
     box-shadow: 2px 4px 15px purple;
     transition: 300ms;
 
@@ -307,4 +307,16 @@ main {
 .roupa-ajuste {
     width: 160px;
     height: 168px;
+}
+.midia img,
+.midia {
+    border-radius: 10%;
+    width: 150px;
+    height: 180px;
+    margin: 10px;
+    box-shadow: 5px 5px 10px purple;
+    display: flex;transition: 300ms;
+}
+.midia::-webkit-scrollbar {
+    display: none;
 }

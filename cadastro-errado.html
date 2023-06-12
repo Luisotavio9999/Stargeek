@@ -10,17 +10,29 @@
 </head>
 
 <body>
-    <main>
-        <div class="div1">
-            <ul>
-                <li><input type="text" placeholder="Digite seu nome"> </li>
-                <li><input type="email" placeholder="Digite seu e-mail"></li>
-                <li><input type="password" placeholder="Digite sua Senha"></li>
-                <li><input type="password" placeholder="Confirme sua senha"></li>
-                <li><a class="a5" href="tela2.html"> Entrar </a></li>
-            </ul>
-            <p> Login ou senha errados</p>
-        </div>
+        <section class="ex">
+            <table>
+                <tr>
+                    <td>Nome:</td>
+                    <td><input type="text" id="nome" placeholder="Digite seu nome"></td>
+                </tr>
+                <tr>
+                    <td>Usuário</td>
+                    <td><input type="text" id="login" placeholder="Digite seu e-mail"></td>
+                </tr>
+                <tr>
+                    <td>Senha</td>
+                    <td><input type="password" id="senha" placeholder="Digite sua Senha"></td>
+                </tr>
+                <tr>
+                    <td>Senha</td>
+                    <td><input type="password" id="confirmarSenha" placeholder="Confirme sua senha"></td>
+                </tr>
+            </table>
+            <button onclick="botaoCadastrar()">Cadastrar Usuário</button>
+            <p> Crie um login </p>
+        </section>
+        <script src="cadastro.js"></script>
 </body>
 
 </html>

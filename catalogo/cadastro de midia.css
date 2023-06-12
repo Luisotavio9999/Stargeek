@@ -5,11 +5,15 @@
 }
 
 body {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+     margin-right: 50px; 
+    background-image: url(../img/Los-mejores-sitios-web-para-aficionados-al-anime-1.jpg);  
+    
 }
 
 .ex {
-    background-image: url(../img/rage.jpg);
+    background-image: url(../img/15-animes-parecidos-com-naruto-para-conferir-agora-mesmo_t.webp);
     border: 20px solid black;
     border-radius: 50px;
     background-size: cover;
@@ -27,14 +31,6 @@ body {
     margin-right: 500px;
 }
 
-table {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
 input {
     background-color: white;
     border-radius: 20px;
@@ -46,34 +42,42 @@ input {
     padding-left: 20px;
     color: rgb(87, 87, 87);
 }
-button {
-    background-color: white;
-    border-radius: 20px;
-    height: 50px;
-    width: 300px;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding-left: 10px;
-    color: rgb(87, 87, 87);
-}
 
-table {
+ul {
     align-items: center;
     justify-content: center;
     list-style-type: none;
 }
 
+button {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding-left: 30px;
+    padding-right: 32px;
+    font-size: 40px;
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 90px;
+}
+select {
+    background-color: white;
+    border-radius: 20px;
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    color: rgb(87, 87, 87);
+}
 td{
     color: rgb(255, 255, 255);
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px 10px black;
     font-size: larger;
 }
-
-p {
-    padding-top: 10px;
-    text-align: center;
-    color: rgb(255, 0, 0);
+h1{
     font-size: 50px;
 }
-
